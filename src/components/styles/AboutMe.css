@@ -74,7 +74,7 @@
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi button{
+.sobremi a{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -87,7 +87,7 @@
     position: relative;
     z-index: 10;
 }
-.sobremi button .overlay{
+.sobremi a .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -97,6 +97,6 @@
     z-index: -1;
     transition: 1s;
 }
-.sobremi button:hover .overlay{
+.sobremi a:hover .overlay{
     width: 100%;
 }

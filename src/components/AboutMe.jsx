@@ -1,4 +1,5 @@
 import './styles/AboutMe.css'
+import cv from '../utils/Curriculum-esp.pdf'
 const AboutMe = () => {
   return (
     <section id="sobremi" className="sobremi">
@@ -76,10 +77,10 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-            <button>
-                Download CV <i className="fa-solid fa-download"></i>
+            <a href={cv} target='_blank'>
+                Download CV 
                 <span className="overlay"></span>
-            </button>
+            </a>
         </div>
     </section>
   )

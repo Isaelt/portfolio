@@ -1,5 +1,5 @@
 import './styles/AboutMe.css'
-import cv from '../utils/Curriculum-esp.pdf'
+import cv from '../utils/Curriculum-espanol.pdf'
 const AboutMe = () => {
   return (
     <section id="sobremi" className="sobremi">

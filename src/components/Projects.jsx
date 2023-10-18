@@ -11,11 +11,11 @@ const Projects = () => {
         <div className="contenido-seccion">
             <h2>PORTFOLIO</h2>
             <div className="galeria">
-                <a href='https://timely-pithivier-c21f77.netlify.app/' target='_blank' className="proyecto">
-                    <img src={clima} alt=""/>
+            <a href='https://leafy-cranachan-d1e61a.netlify.app/' target='_blank' className="proyecto">
+                    <img src={ecommerceReact} alt=""/>
                     <div className="overlay">
-                        <h3>Api Clima</h3>
-                        <p>React</p>
+                        <h3>E-Commerce</h3>
+                        <p>React-Redux</p>
                     </div>
                 </a>
                 <a href='https://inquisitive-donut-734d93.netlify.app/' target='_blank' className="proyecto">
@@ -23,13 +23,6 @@ const Projects = () => {
                     <div className="overlay">
                         <h3>Crud-Users</h3>
                         <p>React</p>
-                    </div>
-                </a>
-                <a href='https://leafy-cranachan-d1e61a.netlify.app/' target='_blank' className="proyecto">
-                    <img src={ecommerceReact} alt=""/>
-                    <div className="overlay">
-                        <h3>E-Commerce</h3>
-                        <p>React-Redux</p>
                     </div>
                 </a>
                 <a href='https://timely-nasturtium-1de6f6.netlify.app/' target='_blank' className="proyecto">
@@ -51,6 +44,13 @@ const Projects = () => {
                     <div className="overlay">
                         <h3>E-Commerce Vanilla</h3>
                         <p>Javascript</p>
+                    </div>
+                </a>
+                <a href='https://timely-pithivier-c21f77.netlify.app/' target='_blank' className="proyecto">
+                    <img src={clima} alt=""/>
+                    <div className="overlay">
+                        <h3>Api Clima</h3>
+                        <p>React</p>
                     </div>
                 </a>
               

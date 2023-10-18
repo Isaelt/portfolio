@@ -1,5 +1,5 @@
 import './styles/AboutMe.css'
-import cv from '../utils/Curriculum-espanol.pdf'
+import cv from '../utils/cv-human-eng.pdf'
 const AboutMe = () => {
   return (
     <section id="sobremi" className="sobremi">
@@ -27,11 +27,11 @@ const AboutMe = () => {
                             i.terayo@gmail.com
                         </li>
                         <li>
-                            <strong>Adress</strong>
+                            <strong>Address</strong>
                             Morelia, Michoacan. Mex.
                         </li>
                         <li>
-                            <strong>Cargo</strong>
+                            <strong>Position</strong>
                             <span>FREELANCE</span>
                         </li>
                     </ul>

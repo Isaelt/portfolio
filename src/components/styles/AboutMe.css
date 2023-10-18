@@ -39,7 +39,7 @@
     list-style: none;
 }
 .sobremi .fila .col ul li{
-    margin: 12px 0;
+    margin: 1.2em 0;
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
@@ -55,6 +55,8 @@
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
 }
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;

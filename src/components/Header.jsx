@@ -22,7 +22,7 @@ const Header = () => {
                     <li><a href="#inicio">HOME</a></li>
                     <li><a href="#sobremi">ABOUT ME</a></li>
                     <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#curriculum">RESUME</a></li>
+                    <li><a href="#sobremi">RESUME</a></li>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
                     <li><a href="#contacto">CONTACT</a></li>
                 </ul>
